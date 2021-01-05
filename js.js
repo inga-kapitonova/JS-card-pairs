@@ -1,8 +1,8 @@
-let card = $(".game-card");
-$(function () {});
+$(function () {
+  let card = $(".game-card");
+  let container = $("#wrapper");
 
-let container = $("#wrapper");
-
-for (let i = 1; i <= 19; i++) {
-  container.append(card.clone());
-}
+  for (let i = 1; i <= 19; i++) {
+    container.append(card.clone());
+  }
+});
