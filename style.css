@@ -1,0 +1,14 @@
+#wrapper {
+  width: 600px;
+  background: #ccc;
+  margin: 50px auto;
+  display: grid;
+  grid-template: repeat(4, 100px) / repeat(5, 100px);
+  padding: 30px;
+  box-sizing: border-box;
+  grid-gap: 10px;
+}
+.game-card {
+  height: 100px;
+  background: rgb(115, 115, 224);
+}
